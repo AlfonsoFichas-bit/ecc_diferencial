@@ -14,3 +14,6 @@ _fresh/
 node_modules/
 vendor/
 
+
+# build output
+dist/
