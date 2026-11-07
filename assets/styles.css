@@ -15,14 +15,16 @@
 
 /* Micro-interactions & animations (Rule 5) */
 .card-hover {
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s
+    cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
 }
 .card-hover:hover {
   transform: translateY(-2px);
 }
 
 .btn-press {
-  transition: transform 0.1s ease, background-color 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.1s ease, background-color 0.15s ease, border-color
+    0.15s ease;
 }
 .btn-press:hover {
   transform: translateY(-1px);
@@ -34,7 +36,7 @@
 /* Subtle tech grid background */
 .tech-grid {
   background-size: 32px 32px;
-  background-image: 
+  background-image:
     linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
 }
