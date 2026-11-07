@@ -5,7 +5,9 @@
     "dev": "vite",
     "build": "vite build",
     "start": "deno serve -A _fresh/server.js",
-    "update": "deno run -A -r jsr:@fresh/update ."
+    "update": "deno run -A -r jsr:@fresh/update .",
+    "deploy": "deno --allow-env --allow-run npm:wrangler deploy",
+    "cf-typegen": "deno npm:wrangler types"
   },
   "lint": {
     "rules": {
@@ -20,6 +22,7 @@
   ],
   "imports": {
     "@/": "./",
+    "@cloudflare/vite-plugin": "npm:@cloudflare/vite-plugin@^1.67.0",
     "fresh": "jsr:@fresh/core@^2.3.3",
     "preact": "npm:preact@^10.29.1",
     "@preact/signals": "npm:@preact/signals@^2.9.0",
@@ -28,7 +31,8 @@
     "@types/babel__core": "npm:@types/babel__core@^7.20.5",
     "tailwindcss": "npm:tailwindcss@^4.1.10",
     "@tailwindcss/vite": "npm:@tailwindcss/vite@^4.1.12",
-    "chart.js": "npm:chart.js@^4.4.0"
+    "chart.js": "npm:chart.js@^4.4.0",
+    "wrangler": "npm:wrangler@^4.158.0"
   },
   "compilerOptions": {
     "lib": [

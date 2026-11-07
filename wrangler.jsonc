@@ -1,0 +1,15 @@
+{
+  "$schema": "https://www.unpkg.com/wrangler/config-schema.json",
+  "name": "ecc-diferencial",
+  "main": "./handler.js",
+  "compatibility_date": "2026-04-18",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./_fresh/client"
+  },
+  "build": {
+    "command": "deno task build"
+  }
+}
