@@ -52,7 +52,7 @@
 
 ## 6. Deploy
 
-- [ ] 6.1 Inicializar git, commit y crear repo GitHub, push — verificar repo
+- [x] 6.1 Inicializar git, commit y crear repo GitHub, push - verificar repo
       remoto
 - [ ] 6.2 Conectar a Deno Deploy y obtener URL pública — verificar URL funcional
 - [ ] 6.3 Grabar video de 1 minuto — verificar archivo de video
