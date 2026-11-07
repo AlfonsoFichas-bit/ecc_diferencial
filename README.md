@@ -35,5 +35,5 @@ del problema.
 
 ## Despliegue
 
-- Repositorio: GitHub (este repo).
-- App: Deno Deploy (URL pública).
+- Repositorio: https://github.com/AlfonsoFichas-bit/ecc_diferencial
+- App (Cloudflare Workers): https://ecc-diferencial.alfonsofichas.workers.dev
